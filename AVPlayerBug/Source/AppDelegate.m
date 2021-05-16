@@ -7,6 +7,11 @@
 	UIWindow *_window;
 }
 
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+    return YES;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(nullable NSDictionary<UIApplicationLaunchOptionsKey,id> *)launchOptions
 {
 	_window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
@@ -35,7 +40,9 @@
 	MediaVideoView *view = [[MediaVideoView alloc] initWithAVAsset:asset];
 	view.frame = _window.rootViewController.view.bounds;
 	[_window.rootViewController.view addSubview:view];
-	
+    // Allow the app sound to continue to play when the screen is locked.
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
+
 	NSLog(@"Starting to play...");
 	[view play];
 
