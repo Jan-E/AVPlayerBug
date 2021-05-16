@@ -21,7 +21,7 @@
 	
 
     // Try NPO Radio 1
-    AVURLAsset *asset = [AVURLAsset assetWithURL:[NSURL URLWithString:@"https://icecast.omroep.nl/radio1-sb-mp3"]];
+    AVURLAsset *asset = [AVURLAsset assetWithURL:[NSURL URLWithString:@"https://icecast.omroep.nl/radio1-bb-mp3"]];
 
 	// Audio typically cuts out around 1 minute on these:
 	// (Ironically they are both political clips from MSNBC, but from different sources.)
