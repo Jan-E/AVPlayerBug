@@ -21,11 +21,11 @@
 	
 
     // Try NPO Radio 1
-    AVURLAsset *asset = [AVURLAsset assetWithURL:[NSURL URLWithString:@"https://icecast.omroep.nl/radio1-bb-mp3"]];
+//  AVURLAsset *asset = [AVURLAsset assetWithURL:[NSURL URLWithString:@"https://icecast.omroep.nl/radio1-bb-mp3"]];
 
 	// Audio typically cuts out around 1 minute on these:
 	// (Ironically they are both political clips from MSNBC, but from different sources.)
-//	AVURLAsset *asset = [AVURLAsset assetWithURL:[NSURL URLWithString:@"https://video.twimg.com/amplify_video/1389367071088291843/vid/640x360/4hhlJ0xBOcX6tgT1.mp4?tag=14"]];
+	AVURLAsset *asset = [AVURLAsset assetWithURL:[NSURL URLWithString:@"https://video.twimg.com/amplify_video/1389367071088291843/vid/640x360/4hhlJ0xBOcX6tgT1.mp4?tag=14"]];
 //	AVURLAsset *asset = [AVURLAsset assetWithURL:[NSURL URLWithString:@"https://video.twimg.com/amplify_video/1389684384232525827/vid/640x360/FiPymFGRQAEMgtai.mp4?tag=14"]];
 
 	
