@@ -12,6 +12,7 @@
 		14DE460326431665005648C9 /* MediaVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE460026431665005648C9 /* MediaVideoView.m */; };
 		14DE460426431665005648C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE460126431665005648C9 /* main.m */; };
 		14DE460526431665005648C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE460226431665005648C9 /* AppDelegate.m */; };
+		F7E5B0E4268EC29A003D7492 /* nosound-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E5B0E3268EC299003D7492 /* nosound-1024.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,7 @@
 		14DE460026431665005648C9 /* MediaVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaVideoView.m; sourceTree = "<group>"; };
 		14DE460126431665005648C9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14DE460226431665005648C9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7E5B0E3268EC299003D7492 /* nosound-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nosound-1024.png"; path = "Images.xcassets/AppIcon.appiconset/nosound-1024.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		147E678614EC6E28003C0472 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F7E5B0E3268EC299003D7492 /* nosound-1024.png */,
 				1404BD53161F1F920042CF0A /* AVPlayerBug.entitlements */,
 				145D462B19C240DA007F485D /* Images.xcassets */,
 				147E679214EC6FC3003C0472 /* Info.plist */,
@@ -194,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E5B0E4268EC29A003D7492 /* nosound-1024.png in Resources */,
 				1428392A19E32E6A00C24C9B /* Launch.xib in Resources */,
 				145D462C19C240DA007F485D /* Images.xcassets in Resources */,
 			);
@@ -329,7 +333,7 @@
 				CODE_SIGN_ENTITLEMENTS = AVPlayerBug/Resources/AVPlayerBug.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 7J77685L3X;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -363,7 +367,7 @@
 				CODE_SIGN_ENTITLEMENTS = AVPlayerBug/Resources/AVPlayerBug.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 7J77685L3X;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
